@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: xuanranxiaoshi
+site_url: https://xuanranxiaoshi.github.io/xiaoshi/
+theme:
+ name: material
+

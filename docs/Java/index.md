@@ -1,5 +1,4 @@
-# Java 技术记录
+# Java
 
-- Java 基础知识
-    - Java 语法
-    - Java 集合
+!!! abstract 
+    这里是 Java 的学习笔记

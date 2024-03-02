@@ -1,4 +1,4 @@
-site_name: xuanranxiaoshi
+site_name: 几米的笔记本
 site_url: https://xuanranxiaoshi.github.io/xiaoshi
 
 
@@ -8,8 +8,10 @@ nav:
     - blog/index.md
   - Java:
     - Java/index.md
-    - JavaBasic: Java/JavaBasic/index.md
-    - JVM: Java/JVM/JVM内存.md
+    - JVM: 
+      - Java/JVM/index.md
+      - JVM 内存管理: Java/JVM/JVM_Memory.md
+      - JVM 垃圾回收: Java/JVM/JVM_GC.md
 
 
 
@@ -22,34 +24,32 @@ nav:
 
 theme:
   name: material
+  language: 'zh'
+  favicon: icons/favicon.png # 浏览器页面标签图标
+  icon: 
+    logo: material/notebook-outline # 页面中顶部栏左侧图标
   features:
-  - content.code.annotate
-  - content.code.copy
-  - navigation.instant
-  - navigation.instant.progress
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.sections
-  - navigation.path
-  - navigation.prune
-  - navigation.indexes
-  - toc.follow
-  - navigation.top
+    - content.tabs.link
+    - content.code.copy
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.indexes
+    - navigation.footer # 页面底部有下一页的链接(按目录上的顺序)
+
 
 markdown_extensions:
   - admonition
   - meta
-  - attr_list
-  - md_in_html
-  - def_list
-  - footnotes
-  - pymdownx.critic
+  - attr_list # 矩形按钮/按键
+  - md_in_html # 显示 html 元素
+  - footnotes # 脚注
+  - pymdownx.critic # b Formatting 含 高亮/删除线/下划线/上下角标 [等]
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - pymdownx.tilde # b
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
@@ -69,6 +69,13 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator:
         !!python/name:material.extensions.emoji.to_svg # Update 2023.12.18 for locations
+  - mdx_truly_sane_lists  # 多级列表显示
+  - def_list # # a 无序/有序/任务 列表
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc: # 目录相关
+      # permalink: true # 每个页面内，各标题会生成各自的链接
+      title: 目录 # 修改页面右侧 Table of contents 文字
 
 plugins:
   - search:
@@ -84,12 +91,14 @@ plugins:
           case: lower
       post_slugify_separator: "-"
       post_excerpt: optional
+      archive_toc: true
       archive_name: 存档
       archive_date_format: yyyy-MM
       archive_url_date_format: yyyy
       archive_url_format: "{date}"
       categories: true
       categories_name: 分类
+      draft_if_future_date: true
 
   - git-revision-date-localized:
       type: datetime
@@ -112,6 +121,11 @@ extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
+  - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css
+  - stylesheets/custom.css
+
 
 copyright: Copyright &copy; 2024 - 2026 xuanranxiaoshi
 

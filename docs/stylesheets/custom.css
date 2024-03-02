@@ -1,0 +1,30 @@
+:root {
+    --md-text-font: "JetBrains Mono", "LXGW WenKai Screen"; 
+    --md-code-font: "JetBrains Mono";
+  }
+
+.md-typeset {
+  font-size: .7rem;
+}
+
+
+/* 修改所有代码字体大小 */
+.md-typeset code {
+  font-size: .65rem;
+}
+
+/* (覆盖)修改行内代码字体大小 */
+.md-typeset code:not(pre code) {
+  font-size: inherit;
+}
+
+/* 修改代码块行间距 */
+.md-typeset pre {
+  line-height: 1.8;
+}
+
+/* 修改代码块行号(数字)的字体大小 */
+.highlighttable .linenos {
+  /* font-size: 0.93em; */
+  font-size: .65rem;
+}

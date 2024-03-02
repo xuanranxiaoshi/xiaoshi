@@ -2,7 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/</loc>
-         <lastmod>2024-03-01</lastmod>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/JVM%E5%86%85%E5%AD%98/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JavaBasic/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/</loc>
+         <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

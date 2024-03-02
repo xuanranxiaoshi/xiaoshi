@@ -11,7 +11,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/JVM%E5%86%85%E5%AD%98/</loc>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/JVM_GC/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/JVM_Memory/</loc>
          <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -22,6 +32,21 @@
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/02/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/</loc>
+         <lastmod>2024-03-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/category/test/</loc>
          <lastmod>2024-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>

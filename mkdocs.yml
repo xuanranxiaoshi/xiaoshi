@@ -1,5 +1,121 @@
-site_name: xuanranxiaoshi
-site_url: https://xuanranxiaoshi.github.io/xiaoshi/
+site_name: 几米
+site_url: https://xuanranxiaoshi.github.io/xiaoshi
+
+
+nav:
+  - Home: index.md
+  - Blog: 
+    - blog/index.md
+  - Java:
+    - Java/index.md
+    - JavaBasic: Java/JavaBasic/index.md
+    - JVM: Java/JVM/JVM内存.md
+
+
+
+
+
+
+
+
+
+
 theme:
- name: material
+  name: material
+  features:
+  - content.code.annotate
+  - content.code.copy
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.path
+  - navigation.prune
+  - navigation.indexes
+  - toc.follow
+  - navigation.top
+
+markdown_extensions:
+  - admonition
+  - meta
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator:
+        !!python/name:material.extensions.emoji.to_svg # Update 2023.12.18 for locations
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+      lang: zh
+  - blog:
+      blog_dir: blog
+      post_date_format: long
+      post_url_date_format: yyyy/MM/dd
+      post_url_format: "{date}/{slug}"
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      post_slugify_separator: "-"
+      post_excerpt: optional
+      archive_name: 存档
+      archive_date_format: yyyy-MM
+      archive_url_date_format: yyyy
+      archive_url_format: "{date}"
+      categories: true
+      categories_name: 分类
+
+  - git-revision-date-localized:
+      type: datetime
+      custom_format: "%d %B %Y"
+      timezone: Asia/Shanghai
+      locale: zh
+      fallback_to_build_date: false
+      enable_creation_date: true
+      exclude:
+        - index.md
+      enabled: true
+
+  - git-authors:
+      show_contribution: true
+      exclude:
+        - index.md
+      enabled: true
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: Copyright &copy; 2024 - 2026 xuanranxiaoshi
+
+
+
+
 

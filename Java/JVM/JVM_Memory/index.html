@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../icons/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.12">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
     
     
       
@@ -227,6 +227,26 @@
     
   
   Java
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ML/" class="md-tabs__link">
+          
+  
+    
+  
+  ML
 
         </a>
       </li>
@@ -754,6 +774,90 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../ML/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    ML
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            ML
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ML/RL/RLBasic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reinforcement Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -839,8 +943,8 @@
 <p>jdk 1.7，运行时数据区域包括：线程间共享的<strong>堆</strong>、<strong>方法区</strong>，以及每个线程单独拥有的<strong>虚拟机栈</strong>、<strong>本地方法栈</strong>、<strong>程序计数器</strong>； 本地内存区域包括共享的<strong>直接内存</strong>。<br></p>
 <p>jdk 1.8， 运行时数据区域包括：线程间共享的 <strong>堆</strong>，以及每个线程单独拥有的<strong>虚拟机栈</strong>、<strong>本地方法栈</strong>、<strong>程序计数器</strong>； 本地内存区域包括共享的<strong>直接内存</strong>、<strong>元空间</strong>。<br></p>
 <p>两者的主要区别在于 jdk 1.8 将逻辑区域<strong>方法区</strong>在本地内存中实现为<strong>元空间</strong>，而此前是将其实现为堆结构中的<strong>永久代</strong>。<br></p>
-<p><img alt="jdk 1.7" src="../imges/java-runtime-data-areas-jdk1.7.png" />
-<img alt="jdk 1.8" src="../imges/java-runtime-data-areas-jdk1.8.png" /></p>
+<p><img alt="jdk 1.7" src="imges/java-runtime-data-areas-jdk1.7.png" />
+<img alt="jdk 1.8" src="imges/java-runtime-data-areas-jdk1.8.png" /></p>
 <h2 id="jvm_2">二、JVM 不同内存区域的作用</h2>
 <ul>
 <li><strong>堆</strong>：存放对象实例，几乎所有的对象实例和数组都在这分配内存； 包含<strong>字符串常量池</strong>;从垃圾回收的角度，堆内存常被分为：新生代内存、老生代、永久代（1.8之后为元空间，使用本地内存）</li>

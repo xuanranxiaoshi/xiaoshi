@@ -16,7 +16,7 @@ Java 堆是垃圾收集器管理的主要区域，因此也被称作 **GC 堆（
 
 其中在 JDK 1.8 及之后用元空间替代永久代，并在本地内存中实现；下图所示的 **Eden** 区、两个 **Survivor** 区 S0 和 S1 都属于新生代，中间一层属于**老年代**，最下面一层属于**永久代**。
 
-![堆结构](imges\hotspot-heap-structure.png)
+![堆结构](imges/hotspot-heap-structure.png)
 
 ## 二、堆内存的分配及回收原则
 
@@ -127,7 +127,7 @@ JDK 默认的垃圾收集器：
 
 * **并发清除：** 开启用户线程，同时 GC 线程开始对未标记的区域做清扫。
 
-![CMS 收集器](imges\cms-garbage-collector.png)
+![CMS 收集器](imges/cms-garbage-collector.png)
 
 从它的名字就可以看出它是一款优秀的垃圾收集器，主要优点：**并发收集、低停顿**。但是它有下面三个明显的缺点：
 
@@ -144,7 +144,7 @@ G1 收集器的运作大致分为以下几个步骤：
 - **最终标记**
 - **筛选回收**
 
-![G1 收集器](imges\g1-garbage-collector.png)
+![G1 收集器](imges/g1-garbage-collector.png)
 
 **G1 收集器在后台维护了一个优先列表，每次根据允许的收集时间，优先选择回收价值最大的 Region(这也就是它的名字 Garbage-First 的由来)** 。这种使用 Region 划分内存空间以及有优先级的区域回收方式，保证了 G1 收集器在有限时间内可以尽可能高的收集效率。
 

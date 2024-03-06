@@ -12,6 +12,10 @@ nav:
       - Java/JVM/index.md
       - JVM 内存管理: Java/JVM/JVM_Memory.md
       - JVM 垃圾回收: Java/JVM/JVM_GC.md
+  - ML:
+    - ML/index.md
+    - Reinforcement Learning: ML/RL/RLBasic.md
+
 
 
 

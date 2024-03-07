@@ -11,7 +11,7 @@ categories:
 
 >   2024-03-02
 
-[Why does mkdocs-material display unsupported Chinese when running the mkdocs gh-deploy -- force command · squidfunk/mkdocs-material · Discussion #5992 (github.com)](https://github.com/squidfunk/mkdocs-material/discussions/5992)
+这是第一篇博客的发布测试
 
 <!-- more -->
 

@@ -2,67 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/JVM_GC/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/JVM_Memory/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JVM/JVM_Parameters/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/JavaBasic/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/Spring/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/Spring/spring-basic-1/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/Spring/spring-data/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/Java/Spring/spring-ioc/</loc>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/ML/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/ML/RL/RLBasic/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/02/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/14/cuda-%E7%BC%96%E7%A8%8B%E9%9B%B6/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/15/cuda-error-the-provided-ptx-was-compiled-with-an-unsupported-toolchain/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/16/cuda-%E7%BC%96%E7%A8%8B%E4%B8%80/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/21/%E7%9B%B8%E5%85%B3%E5%90%AF%E5%8A%A8%E5%91%BD%E4%BB%A4/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/27/cuda-%E7%BC%96%E7%A8%8B%E4%BA%8C/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/28/err_nvgpuctrperm---the-user-does-not-have-permission-to-access-nvidia-gpu-performance-counters-on-the-target-device-0/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/30/spring-porfile-%E4%BD%BF%E7%94%A8/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/04/02/flink-%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/13/redis-%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE--flink-connector/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/03/09/%E6%9C%8D%E5%8A%A1%E5%99%A8-mysql-%E5%AE%89%E8%A3%85/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/course/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/course/computationModel/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/course/computationModel/chapter-01/</loc>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/2024/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/category/flink/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/category/spring/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/category/cuda/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/category/%E5%B9%B6%E8%A1%8C%E4%BC%98%E5%8C%96/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/category/highlink/</loc>
+         <lastmod>2024-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/category/redis/</loc>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xuanranxiaoshi.github.io/xiaoshi/blog/category/test/</loc>
-         <lastmod>2024-03-07</lastmod>
+         <lastmod>2024-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

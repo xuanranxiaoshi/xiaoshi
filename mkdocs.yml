@@ -7,17 +7,26 @@ nav:
   - Blog: 
     - blog/index.md
   - Java:
-    - Java/index.md
+    - java/index.md
     - JVM: 
-      - Java/JVM/index.md
-      - JVM 内存管理: Java/JVM/JVM_Memory.md
-      - JVM 垃圾回收: Java/JVM/JVM_GC.md
-      - JVM 常用参数: Java/JVM/JVM_Parameters.md
+      - java/JVM/index.md
+      - JVM 内存管理: java/JVM/JVM_Memory.md
+      - JVM 垃圾回收: java/JVM/JVM_GC.md
+      - JVM 常用参数: java/JVM/JVM_Parameters.md
+    - Spring:
+      - java/Spring/index.md
+      - Spring 框架: java/Spring/spring-basic-1.md
+      - Spring Ioc: java/Spring/spring-ioc.md
+      - Spring Data: java/Spring/spring-data.md
       
   - ML:
     - ML/index.md
     - Reinforcement Learning: ML/RL/RLBasic.md
-
+  - Course:
+    - course/index.md
+    - 计算模型: 
+      - course/computationModel/index.md
+      - Chapter-1 递归函数: course/computationModel/chapter-01.md
 
 
 
@@ -42,6 +51,7 @@ theme:
     - search.highlight
     - search.share
     - navigation.indexes
+    - navigation.top
     # - navigation.footer # 页面底部有下一页的链接(按目录上的顺序)
   palette: 
 
@@ -92,11 +102,14 @@ markdown_extensions:
         !!python/name:material.extensions.emoji.to_svg # Update 2023.12.18 for locations
   - mdx_truly_sane_lists  # 多级列表显示
   - def_list # # a 无序/有序/任务 列表
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - toc: # 目录相关
       # permalink: true # 每个页面内，各标题会生成各自的链接
       title: 目录 # 修改页面右侧 Table of contents 文字
+  - pymdownx.arithmatex:
+      generic: true
+
+
+
 
 plugins:
   - search:
@@ -142,6 +155,8 @@ extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/mathjax.js
+
 extra_css:
   - https://cdn.tonycrane.cc/jbmono/jetbrainsmono.css
   - https://cdn.tonycrane.cc/lxgw/lxgwscreen.css

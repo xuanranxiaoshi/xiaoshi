@@ -10,8 +10,8 @@ jdk 1.8， 运行时数据区域包括：线程间共享的 **堆**，以及每�
 
 两者的主要区别在于 jdk 1.8 将逻辑区域**方法区**在本地内存中实现为**元空间**，而此前是将其实现为堆结构中的**永久代**。<br>
 
-![jdk 1.7](imges/java-runtime-data-areas-jdk1.7.png)
-![jdk 1.8](imges/java-runtime-data-areas-jdk1.8.png)
+![jdk 1.7](images/java-runtime-data-areas-jdk1.7.png)
+![jdk 1.8](images/java-runtime-data-areas-jdk1.8.png)
 
 
 
